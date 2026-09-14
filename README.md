@@ -10,9 +10,10 @@ Movhex is a forward-thinking transportation company operating a vast fleet of ve
 
 ## The Map Structure
 The environment is modeled as a rectangular grid of hexagonal tiles. 
-![an example of a map with 4 rows and 5 columns](grid_example.png)
 
 Each hexagon connects to up to six neighboring tiles (excluding map borders). Vehicles navigate this terrain by traveling land routes between adjacent hexagons or by utilizing dynamically established one-way air routes. Every single tile has an associated "exit cost" which acts as a weight representing the difficulty or expense of traveling out of that specific location.
+
+![an example of a map with 4 rows and 5 columns](grid_example.png)
 
 ## Implementation Details
 The project is implemented entirely in **C**, prioritizing performance and low-level memory management. It relies on advanced data structures to ensure rapid execution, even on large-scale maps:
