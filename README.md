@@ -9,7 +9,7 @@ The project was evaluated through automated tests considering both correctness a
 Movhex is a forward-thinking transportation company operating a vast fleet of vehicles across a wide geographical area. To minimize operational expenses and improve logistics, this project implements a highly optimized, specialized program designed to calculate the most cost-effective travel routes for their fleet. 
 
 ## The Map Structure
-The environment is modeled as a rectangular grid of hexagonal tiles, forming a comprehensive world map. 
+The environment is modeled as a rectangular grid of hexagonal tiles. 
 ![an example of a map with 4 rows and 5 columns](grid_example.png)
 
 Each hexagon connects to up to six neighboring tiles (excluding map borders). Vehicles navigate this terrain by traveling land routes between adjacent hexagons or by utilizing dynamically established one-way air routes. Every single tile has an associated "exit cost" which acts as a weight representing the difficulty or expense of traveling out of that specific location.
